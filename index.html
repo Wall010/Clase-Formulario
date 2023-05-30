@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos00.css">
+    <script src="./java.js"></script>
+    <title>Formularios</title>
+</head>
+<body>
+    <section class="form-register">
+        <h4>Ingreso</h4>
+        <input type="text" class="control" name="usuario" id="usuario" placeholder="Ingrese su Usuario">
+
+        <input type="password" class="control" name="pass" id="password" placeholder="Ingrese su password">
+
+        <input onclick="ingreso()" class="botons" type="submit" value="Ingresar">
+
+    </section>
+
+    <div class="contIframe">
+        <input onclick="cargarPag()" class="botons" type="text" value="Cargar pag al Iframe">
+        <br><br>
+        <iframe id="miIframe" width="100%" height="600px" src="https://store.steampowered.com/?l=spanish" frameborder="0"></iframe>
+    </div>
+
+    <img class="puntero00" src="./galeria/img/img-03.jpg" width="20px" height="20px" alt="">
+
+</body>
+</html>
